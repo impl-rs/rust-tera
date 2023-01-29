@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 tera = "1.17.1"
+lazy_static = "1.4.0"
+serde = { version = "1.0.152", features = ["derive"] }
+markdown = "1.0.0-alpha.5"
